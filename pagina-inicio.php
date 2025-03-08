@@ -235,13 +235,19 @@ get_header();
                     </ul>
                 </div>
                 <div class="show-sobre">
-                    <span class="inicio"><strong>Vaquinha criada em:</strong> 06/03/2025</span>
-                    <p>Jhuly, carinhosamente chamada de Jujuba, é uma menina fofa de 4 anos que nasceu com autismo e uma condição rara chamada Síndrome de Apert.</p>
-                    <p>Essa síndrome é caracterizada por deformidades do crânio, face, dentes e membros. Tem os dedos dos pés e das mãos colados e uma fenda no céu da boca, o que dificulta sua fala.</p>
-                    <p>Mãe solo, Marlene luta diariamente para garantir o tratamento da filha. Sem carro para levá-la às consultas em outra cidade e vivendo com apenas um salário mínimo, essa mãe se desdobra para dar o melhor.</p>
-                    <p>Vivem em Conceição do Jacuípe (BA) e precisam toda semana se deslocar para Salvador. São R$ 350 o transporte particular, pois Jujuba é muito agitada e o transporte público faz mal para ela.</p>
-                    <p>A irmã, Iza, mora perto e visita todos os dias. Grava vídeos fofos com a irmã e também vídeos aleatórios para tentar monetizar nas redes.</p>
-                    <p>Infelizmente, muitas vezes, a menina sofre com comentários preconceituosos e piadas. Porém, Jujuba não tira o sorriso do rosto, é uma garota muito inteligente também.</p>
+                    <span class="inicio">
+                    <p><strong>Jhuly</strong>, carinhosamente chamada de <strong>Jujuba</strong>, é uma encantadora menina de 4 anos que nasceu com <strong>autismo</strong> e <strong>Síndrome de Apert</strong>, uma condição rara que afeta seu desenvolvimento físico.</p>
+
+<p>A síndrome provoca deformidades no crânio, rosto, dentes e membros. Além disso, seus dedos das mãos e pés são unidos, e ela possui uma fenda no céu da boca, o que dificulta bastante sua fala.</p>
+
+<p><strong>Marlene</strong>, mãe solo dedicada, luta diariamente com todas as forças para garantir o tratamento adequado para a filha. Vivendo apenas com um salário mínimo e sem um carro próprio, ela enfrenta o desafio semanal de levar a pequena Jujuba para consultas médicas em <strong>Salvador</strong>, a mais de 100 km de sua cidade natal, <strong>Conceição do Jacuípe (BA)</strong>.</p>
+
+<p>O transporte particular custa <strong>R$ 350 por viagem</strong>, já que o transporte público causa crises de agitação em Jujuba. Mesmo diante das dificuldades financeiras e logísticas, Marlene não mede esforços para cuidar da filha com todo o amor e dedicação possível.</p>
+
+<p>A irmã mais velha, <strong>Iza</strong>, é uma grande parceira nessa luta diária. Morando perto, visita frequentemente a pequena Jujuba e registra momentos divertidos e afetuosos, compartilhando vídeos nas redes sociais para ajudar na renda familiar.</p>
+
+<p>Infelizmente, Jujuba enfrenta também o desafio das críticas preconceituosas e comentários desagradáveis. Apesar disso, ela mantém sempre um lindo sorriso no rosto, mostrando a todos sua inteligência, doçura e alegria contagiante.</p>
+
                 </div>
             </div>
         </div>

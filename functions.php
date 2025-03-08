@@ -1,3 +1,4 @@
+<?php
 function tigercodes_css() {
     // Estilo principal
     wp_register_style('tigercodes-style', get_template_directory_uri() . '/style.css', [], '1.0.0');
@@ -20,3 +21,4 @@ function tigercodes_css() {
     wp_enqueue_script('scripts-js', get_template_directory_uri() . '/js/scripts.js', ['jquery'], '1.0.0', true);
 }
 add_action('wp_enqueue_scripts', 'tigercodes_css');
+?>

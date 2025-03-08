@@ -19,18 +19,18 @@ let coracoes = 154;
 let themePath = "https://todospelajhuly.site/wp-content/themes/doacao";
 
 const arrayDados = [
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
-    { nome: "Juliana Aparecida", image: themePath + "/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
-    { nome: "Lucas Fernandes", image: themePath + "/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Fernanda Oliveira", image: themePath + "/images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
-    { nome: "João Castro", image: themePath + "/images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Marcela de Moraes", image: themePath + "/images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
-    { nome: "Doador anônimo", image: themePath + "/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+    { nome: "Juliana Aparecida", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
+    { nome: "Lucas Fernandes", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Fernanda Oliveira", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
+    { nome: "João Castro", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Marcela de Moraes", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
+    { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
 ];
 
 let index = 0;

@@ -4,13 +4,93 @@ get_header();
 ?>
 
 <?php if (have_posts()) { while (have_posts()) { the_post(); ?>
-    
+    <script>
+    document.addEventListener('DOMContentLoaded', function () {
+    // Código aqui
+    const swiper = new Swiper('.galeria', {
+        direction: 'horizontal',
+        loop: true,
+        pagination: {
+            el: '.galeria-pagination',
+        },
+        autoplay: {
+            delay: 8000,
+        },
+    });
+
+    let meta = 10000;
+    let arrecadado = 600.00;
+    let apoiadores = 82;
+    let coracoes = 39;
+
+    const arrayDados = [
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+        { nome: "Juliana Aparecida", image: "../images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
+        { nome: "Lucas Fernandes", image: "../images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Fernanda Oliveira", image: "../images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
+        { nome: "João Castro", image: "../images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Marcela de Moraes", image: "../images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 250, coracoes: 0 },
+        { nome: "Marcelo Rodrigues", image: "../images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+        { nome: "Taís Costa", image: "../images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 100, coracoes: 0 },
+        { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+        { nome: "Manoel Caetano Santos", image: "../images/icon.png", apoiador: 1, doado: 30, coracoes: 0 }
+    ];
+
+    let index = 0;
+
+    function atualizarBarra() {
+        if (typeof arrecadado === "undefined" || typeof meta === "undefined" || isNaN(arrecadado) || isNaN(meta) || meta <= 0) {
+            console.error("Valores inválidos para cálculo da barra:", { arrecadado, meta });
+            return;
+        }
+
+        let porcentagem = (arrecadado / meta) * 100;
+        let porcento = Math.round(porcentagem);
+
+        const barra = document.getElementById("barra");
+        const barraMobile = document.getElementById("barraMobile");
+        const porcentagemElement = document.getElementById("porcentagem");
+
+        if (barra && barraMobile && porcentagemElement) {
+            barra.style.width = porcentagem + "%";
+            barraMobile.style.width = porcentagem + "%";
+            porcentagemElement.innerHTML = porcento + "%";
+        } else {
+            console.error("Elementos de progresso não encontrados!");
+        }
+
+
+    function atualizarValores() {
+        if (index >= arrayDados.length) return;
+        index++;
+        atualizarBarra();
+    }
+
+    setInterval(atualizarValores, 1000);
+    atualizarBarra();
+
+    let script = document.createElement("script");
+    script.src = "https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js";
+    script.onload = function () {
+        console.log("Confetti library loaded!");
+    };
+    document.head.appendChild(script);
+});
+</script>
 <main>
     <section id="corpo">
         <div class="container">
             <div class="topVakinha">
                 <span>SAÚDE / TRATAMENTOS</span>
-                <h1>Ajude a Pequena Jujuba: Tratamento Urgente para Autismo e Condição Rara que Afeta seu Crânio</h1>
+                <h1>Menina com autismo e condição rara que causa deformidade do crânio, precisa de tratamento</h1>
                 <span>ID: 5504941</span>
             </div>
             <div class="detailsVakinha d-flex flex-wrap">
@@ -81,13 +161,13 @@ get_header();
                         </div>
                     </div>
                     <div class="progresso-mobile d-flex align-items-center">
-                        <div class="porcentagem"><span id="porcentagem">26%</span></div>
+                        <div class="porcentagem"><span id="porcentagem">6%</span></div>
                         <div class="barra">
                             <div class="barraParcial" id="barra"></div>
                         </div>
                     </div>
                     <div class="arrecadacaoMobile">
-                        <strong id="valorMobile">R$ 14.589,000</strong> de <span>R$ 55.000,00</span>
+                        <strong id="valorMobile">R$ 600,00</strong> de <span>R$ 10.000,00</span>
                     </div>
                 </div>
                 <div class="menu-detalhes">
@@ -108,7 +188,7 @@ get_header();
                 </div>
             </div>
         </div>
-        <div class="resumo" style="display:none;">
+        <div class="resumo">
                 <div class="sticker-resumo">
                     <div class="progresso">
                         <div class="barra-geral">

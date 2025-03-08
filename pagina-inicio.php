@@ -182,7 +182,7 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="resumo">
+            <div class="resumo" style="display: none;">
                 <div class="sticker-resumo">
                     <div class="progresso">
                         <div class="barra-geral">

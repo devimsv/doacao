@@ -26,10 +26,6 @@
 <script src="<?= get_stylesheet_directory_uri(); ?>/swiper-bundle.min.js" defer></script>
 <script src="<?= get_stylesheet_directory_uri(); ?>/bootstrap.min.js" defer></script>
 <script src="<?= get_stylesheet_directory_uri(); ?>/scripts.js" defer></script>
-
-<link rel="stylesheet" href="css/swiper-bundle.min.css">
-<link href="css/bootstrap.min.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
 <?php wp_head(); ?>
 </head>
 <body>

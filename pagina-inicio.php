@@ -114,10 +114,12 @@ get_header();
                                 </div>
                             </div>
                             <div class="comentario">
-                                <div class="content-comentario">
-                                    <div class="avatar">
-                                        <img src="images/pedro_henrique.webp" alt="Pedro Henrique">
-                                    </div>
+                            <div class="content-comentario">
+    <div class="avatar">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/icon.png" alt="Ana Clara">
+    </div>
+</div>
+
                                     <div class="text-comentario">
                                         <h3>Pedro Henrique</h3>
                                         <p>Ajudei de coração mesmo, olha que situação complicada...</p>

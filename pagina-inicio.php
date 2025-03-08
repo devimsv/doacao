@@ -1,7 +1,9 @@
 <?php
-// Template name: inicio
+// Template name: Início
 get_header();
 ?>
+
+<?php if (have_posts()) { while (have_posts()) { the_post(); ?>
 <main>
     <section id="corpo">
         <div class="container">
@@ -186,7 +188,6 @@ get_header();
         <button type="button" class="btn-ajudar">Quero Ajudar</button>
     </section>
 </main>
-
 <?php }; }; ?>
 
 <?php get_footer(); ?>

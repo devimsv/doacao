@@ -147,7 +147,7 @@ get_header();
         <div class="container">
             <div class="topVakinha">
                 <span>SAÚDE / TRATAMENTOS</span>
-                <h1>Menina com autismo e condição rara que causa deformidade do crânio, precisa de tratamento</h1>
+                <h1>Jujuba tem autismo e doença rara precisa de ajuda urgente para tratar deformidade craniana</h1>
                 <span>ID: 5504941</span>
             </div>
             <div class="detailsVakinha d-flex flex-wrap">

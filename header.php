@@ -35,7 +35,6 @@
             <div class="logo">
                 <a href="#">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Vakinha Online">
-
                 </a> 
             </div>
             <div class="menu-header d-none d-lg-flex d-xl-flex align-items-center">

@@ -207,7 +207,7 @@ get_header();
                 <div class="resumo-mobile sticker d-block d-lg-none d-xl-none">
                     <div class="perfil d-flex">
                         <div class="avatar">
-                            <img src="<?php echo get_template_directory_uri(); ?>/images/perfil.png" alt="Vakinha do Amor do Amor Pet">
+                            <img src="<?php echo get_template_directory_uri(); ?>/images/gabriela.webp" alt="Vakinha do Amor do Amor Pet">
                         </div>
 
                         <div class="dadosPerfil">

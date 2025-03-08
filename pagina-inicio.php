@@ -78,7 +78,7 @@ get_header();
                         </div>
                     </div>
                     <div class="progresso-mobile d-flex align-items-center">
-                        <div class="porcentagem"><span id="porcentagem">6%</span></div>
+                        <div class="porcentagem"><span id="porcentagem">26%</span></div>
                         <div class="barra">
                             <div class="barraParcial" id="barra"></div>
                         </div>

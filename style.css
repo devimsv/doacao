@@ -1372,6 +1372,7 @@ margin-right: 5px;
 position: sticky;
 top: 10px;
 background: #fff;
+width: 100%;
 z-index: 10;
 padding: 20px 15px;
 }

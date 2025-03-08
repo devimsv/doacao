@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const meta = 55000;
     let arrecadado = 14589.00;
     let apoiadores = 82;
-    let coracoes = 39;
+    let coracoes = 154;
 
     const arrayDados = [
         { nome: "Doador anônimo", image: "../images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },

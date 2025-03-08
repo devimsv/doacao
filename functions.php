@@ -16,7 +16,7 @@ function tigercodes_css() {
     wp_enqueue_script('jquery', get_template_directory_uri() . '/jquery.min.js', [], '3.7.1', true);
     wp_add_inline_script('jquery', 'document.addEventListener("DOMContentLoaded", function() { jQuery.noConflict(); });');
 
-    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . 'bootstrap.min.js', ['jquery'], '5.3.2', true);
+    wp_enqueue_script('bootstrap-js', get_template_directory_uri() . '/bootstrap.min.js', ['jquery'], '5.3.2', true);
     wp_enqueue_script('swiper-js', get_template_directory_uri() . '/swiper-bundle.min.js', ['jquery'], '10.3.1', true);
     wp_enqueue_script('scripts-js', get_template_directory_uri() . '/scripts.js', ['jquery'], '1.0.0', true);
 }

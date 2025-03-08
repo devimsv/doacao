@@ -207,9 +207,10 @@ get_header();
                         <button type="button" class="btn-ajudar">Quero Ajudar</button>
                     </div>
                     <div class="perfil d-flex">
-                        <div class="avatar">
-                            <img src="images/perfil.png" alt="Vakinha do Amor do Amor Pet">
-                        </div>
+                    <div class="avatar">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/perfil.png" alt="Vakinha do Amor do Amor Pet">
+</div>
+
                         <div class="dadosPerfil">
                             <h3>Vakinha do Amor</h3>
                             <span class="ativo">Ativo(a) no Vakinha desde 09/02/2025</span>

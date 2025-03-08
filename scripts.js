@@ -11,8 +11,8 @@ document.addEventListener('DOMContentLoaded', function () {
         },
     });
 
-    const meta = 10000;
-    let arrecadado = 600.00;
+    const meta = 55000;
+    let arrecadado = 14.539.00;
     let apoiadores = 82;
     let coracoes = 39;
 

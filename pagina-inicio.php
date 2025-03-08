@@ -58,9 +58,10 @@ get_header();
                 </div>
                 <div class="resumo-mobile sticker d-block d-lg-none d-xl-none">
                     <div class="perfil d-flex">
-                        <div class="avatar">
-                            <img src="images/perfil.png" alt="Vakinha do Amor do Amor Pet">
-                        </div>
+                    <div class="avatar">
+    <img src="<?php echo get_template_directory_uri(); ?>/images/perfil.png" alt="Vakinha do Amor do Amor Pet">
+</div>
+
                         <div class="dadosPerfil">
                             <h3>Doe Com Esperanca</h3>
                             <span class="ativo">Ativo(a) no Vakinha desde 18/02/2025</span>
@@ -100,10 +101,11 @@ get_header();
                         <div class="content-box">
                             <h4>Mostrando 6 Comentários</h4>
                             <div class="comentario">
-                                <div class="content-comentario">
-                                    <div class="avatar">
-                                        <img src="images/icon.png" alt="Ana Clara">
-                                    </div>
+                            <div class="content-comentario">
+                            <div class="avatar">
+                                <img src="<?php echo get_template_directory_uri(); ?>/images/icon.png" alt="Ana Clara">
+                                </div>
+                             </div>
                                     <div class="text-comentario">
                                         <h3>Ana Clara</h3>
                                         <p>Eu ajudei com 150 reais, pois eu conheço essa família, dó no coração ver tanta dor que eles passam.</p>

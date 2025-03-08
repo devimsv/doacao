@@ -10,10 +10,7 @@ const swiper = new Swiper('.galeria', {
     },
 });
 
-let themePath = document.querySelector("meta[name='template-directory']")?.getAttribute("content");
-if (!themePath) {
-    themePath = "/wp-content/themes/doacao";
-}
+let themePath = "<?php echo get_template_directory_uri(); ?>";
 
 const meta = 55000;
 let arrecadado = 14589.00;
@@ -34,6 +31,7 @@ const arrayDados = [
     { nome: "Marcela de Moraes", image: `${themePath}/images/icon.png`, apoiador: 1, doado: 50, coracoes: 0 },
     { nome: "Doador anônimo", image: `${themePath}/images/icon.png`, apoiador: 1, doado: 150, coracoes: 1 },
 ];
+
 let index = 0;
 
 function atualizarValores() {

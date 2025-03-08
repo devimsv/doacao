@@ -58,16 +58,27 @@
                     </ul>
                 </div>
                 <div class="aba aba-links d-flex d-lg-none d-xl-none">
-                    <ul>
-                        <li style="text-align: right;"><img src="images/selo_seguranca.webp" alt="Selo de Segurança" width="86"></li>
-                    </ul>
+                <ul>
+    <li class="text-right">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/selo_seguranca.webp" alt="Selo de Segurança" width="86">
+    </li>
+</ul>
+
                 </div>
                 <div class="aba aba-links">
                     <h4>Baixe nosso App</h4>
                     <ul>
-                        <li style="padding-bottom: 12px !important;"><a href="#"><img src="images/google_play.svg" alt="Google Play Store"></a></li>
-                        <li><a href="#"><img src="images/apple_store.svg" alt="Apple Store"></a></li>
-                    </ul>
+    <li class="padding-bottom">
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/google_play.svg" alt="Google Play Store">
+        </a>
+    </li>
+    <li>
+        <a href="#">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/apple_store.svg" alt="Apple Store">
+        </a>
+    </li>
+</ul>
                 </div>
             </div>
         </div>

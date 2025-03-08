@@ -115,7 +115,7 @@ function exibirNotificacao(nome, image, valor) {
     }, 6000);
 }
 
-setInterval(atualizarValores, 30000);
+setInterval(atualizarValores, 1000);
 
 document.addEventListener("DOMContentLoaded", () => {
     atualizarBarra();

@@ -1,5 +1,5 @@
 <?php
-// Template name: Início
+// Template name: inicio
 get_header();
 ?>
 

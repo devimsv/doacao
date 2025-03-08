@@ -9,10 +9,10 @@ const swiper = new Swiper('.galeria', {
         delay: 8000,
     },
 });
-const meta = 55000;
-let arrecadado = 14589.00;
-let apoiadores = 82;
-let coracoes = 154;
+const meta = 10000;
+let arrecadado = 600.00;
+let apoiadores = 45;
+let coracoes = 32;
 
 const arrayDados = [
     { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
@@ -150,5 +150,3 @@ jQuery(function($){
         $('.modal-doar').toggleClass('open');
     });
 });
-
-  

@@ -15,24 +15,16 @@ let arrecadado = 14589.00;
 let apoiadores = 82;
 let coracoes = 154;
 
-function getThemePath() {
-    return "<?php echo get_template_directory_uri(); ?>";
-}
+document.addEventListener('DOMContentLoaded', function () {
+    let avatars = document.querySelectorAll(".perfil .avatar");
 
-const arrayDados = [
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
-    { nome: "Juliana Aparecida", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
-    { nome: "Lucas Fernandes", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Fernanda Oliveira", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
-    { nome: "João Castro", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Marcela de Moraes", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
-    { nome: "Doador anônimo", image: getThemePath() + "/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-];
+    avatars.forEach((avatar, index) => {
+        if (arrayDados[index]) {
+            avatar.style.backgroundImage = `url('${arrayDados[index].image}')`;
+        }
+    });
+});
+
 
 let index = 0;
 

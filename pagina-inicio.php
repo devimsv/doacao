@@ -167,7 +167,7 @@ get_header();
                         </div>
                     </div>
                     <div class="arrecadacaoMobile">
-                        <strong id="valorMobile">R$ 14.589,00</strong> de <span>R$ 55.000,00</span>
+                        <strong id="valorMobile">R$ 14.589,000</strong> de <span>R$ 55.000,00</span>
                     </div>
                 </div>
                 <div class="menu-detalhes">

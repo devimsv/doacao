@@ -90,7 +90,7 @@ get_header();
         <div class="container">
             <div class="topVakinha">
                 <span>SAÚDE / TRATAMENTOS</span>
-                <h1>Ajude a Pequena Jujuba:88 Tratamento Urgente para Autismo e Condição Rara que Afeta seu Crânio</h1>
+                <h1>Ajude a Pequena Jujuba: Tratamento Urgente para Autismo e Condição Rara que Afeta seu Crânio</h1>
                 <span>ID: 5504941</span>
             </div>
             <div class="detailsVakinha d-flex flex-wrap">

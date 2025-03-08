@@ -125,6 +125,9 @@ get_header();
         </div>
     </div>
 </div>
+<section id="fixed-mobile" class="d-block d-lg-none d-xl-none">
+    <button type="button" class="btn-ajudar">Quero Ajudar</button>
+</section>
 </main>
 
 <?php }; }; ?>

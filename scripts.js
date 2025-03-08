@@ -10,21 +10,38 @@ const swiper = new Swiper('.galeria', {
     },
 });
 
+let themePath = document.querySelector("meta[name='template-directory']")?.getAttribute("content");
+if (!themePath) {
+    themePath = "/wp-content/themes/doacao";
+}
+
 const meta = 55000;
 let arrecadado = 14589.00;
 let apoiadores = 82;
 let coracoes = 154;
 
-document.addEventListener('DOMContentLoaded', function () {
-    let avatars = document.querySelectorAll(".perfil .avatar");
+const themePath = "/wp-content/themes/doacao/icon.png";
 
-    avatars.forEach((avatar, index) => {
-        if (arrayDados[index]) {
-            avatar.classList.add(`avatar-${index}`);
-        }
-    });
-});
-
+const arrayDados = [
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 40, coracoes: 1 },
+    { nome: "Juliana Aparecida", image: themePath, apoiador: 1, doado: 30, coracoes: 0 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 113.20, coracoes: 0 },
+    { nome: "Lucas Fernandes", image: themePath, apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Fernanda Oliveira", image: themePath, apoiador: 1, doado: 200, coracoes: 0 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 50, coracoes: 1 },
+    { nome: "João Castro", image: themePath, apoiador: 1, doado: 40, coracoes: 0 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Marcela de Moraes", image: themePath, apoiador: 1, doado: 50, coracoes: 0 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 250, coracoes: 0 },
+    { nome: "Marcelo Rodrigues", image: themePath, apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Taís Costa", image: themePath, apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 100, coracoes: 0 },
+    { nome: "Doador anônimo", image: themePath, apoiador: 1, doado: 40, coracoes: 1 },
+    { nome: "Manoel Caetano Santos", image: themePath, apoiador: 1, doado: 30, coracoes: 0 }
+];
 
 let index = 0;
 

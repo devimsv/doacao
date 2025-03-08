@@ -203,7 +203,7 @@ get_header();
                         <span>Apoiadores</span>
                         <span id="apoiadores">435</span>
                     </div>
-                    <div class="acao">
+                    <div class="acao" style="display=none";>
                         <button type="button" class="btn-ajudar">Quero Ajudar</button>
                     </div>
                     <div class="perfil d-flex">

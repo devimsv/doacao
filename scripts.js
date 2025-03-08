@@ -119,7 +119,7 @@ document.addEventListener('DOMContentLoaded', function () {
         }, 6000);
     }
 
-    setInterval(atualizarValores, 10000);
+    setInterval(atualizarValores, 20000);
 
     document.addEventListener("DOMContentLoaded", () => {
         atualizarBarra();

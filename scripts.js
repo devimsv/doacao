@@ -16,6 +16,24 @@ let arrecadado = 14589.00;
 let apoiadores = 82;
 let coracoes = 154;
 
+let themePath = "https://todospelajhuly.site/wp-content/themes/doacao";
+
+    const arrayDados = [
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+        { nome: "Juliana Aparecida", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
+        { nome: "Lucas Fernandes", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Fernanda Oliveira", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
+        { nome: "João Castro", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+        { nome: "Marcela de Moraes", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
+        { nome: "Doador anônimo", image: "https://todospelajhuly.site/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    ];
+
+let index = 0;
 
 function atualizarValores() {
     if (index >= arrayDados.length) return;
@@ -97,7 +115,7 @@ function exibirNotificacao(nome, image, valor) {
     }, 6000);
 }
 
-setInterval(atualizarValores, 1000);
+setInterval(atualizarValores, 30000);
 
 document.addEventListener("DOMContentLoaded", () => {
     atualizarBarra();

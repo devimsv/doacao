@@ -15,24 +15,24 @@ let apoiadores = 82;
 let coracoes = 154;
 
 const arrayDados = [
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
-    { nome: "Juliana Aparecida", image: "images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
-    { nome: "Lucas Fernandes", image: "images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Fernanda Oliveira", image: "images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
-    { nome: "João Castro", image: "images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
-    { nome: "Marcela de Moraes", image: "images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 250, coracoes: 0 },
-    { nome: "Marcelo Rodrigues", image: "images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Taís Costa", image: "images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 100, coracoes: 0 },
-    { nome: "Doador anônimo", image: "images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
-    { nome: "Manoel Caetano Santos", image: "images/icon.png", apoiador: 1, doado: 30, coracoes: 0 }
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+    { nome: "Juliana Aparecida", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 113.20, coracoes: 0 },
+    { nome: "Lucas Fernandes", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Fernanda Oliveira", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 200, coracoes: 0 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 1 },
+    { nome: "João Castro", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 0 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 1 },
+    { nome: "Marcela de Moraes", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 50, coracoes: 0 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 250, coracoes: 0 },
+    { nome: "Marcelo Rodrigues", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Taís Costa", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 150, coracoes: 1 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 100, coracoes: 0 },
+    { nome: "Doador anônimo", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 40, coracoes: 1 },
+    { nome: "Manoel Caetano Santos", image: "/wp-content/themes/doacao/images/icon.png", apoiador: 1, doado: 30, coracoes: 0 }
 ];
 
 let index = 0;

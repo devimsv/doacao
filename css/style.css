@@ -1362,6 +1362,7 @@ font-weight: 700;
 color: var(--cor-primaria);
 margin-right: 5px;
 }
+
 .resumo-mobile{
 position: sticky;
 top: 10px;
@@ -1370,6 +1371,7 @@ background: #fff;
 z-index: 10;
 padding: 20px 15px;
 }
+
 .detailsVakinha .detalhes .detalhes-view{
 margin-bottom: -30px;
 }

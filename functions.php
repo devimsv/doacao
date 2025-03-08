@@ -14,59 +14,20 @@ add_action('wp_enqueue_scripts', 'tigercodes_css');
 
 
 
+// Enfileirando os scripts corretamente
 function tigercodes_js() {
-  // Carregar o jQuery (muitas vezes já vem com o WordPress, então não é necessário se estiver sendo carregado automaticamente)
-  wp_enqueue_script('jquery'); // O jQuery já vem com o WordPress, você pode deixar isso para garantir que está sendo carregado
+  // Enfileirando o jQuery (padrão do WordPress)
+  wp_enqueue_script('jquery'); 
   
-  // Carregar o Bootstrap JS
-  wp_register_script('bootstrap-js', get_template_directory_uri() . '/js/bootstrap.min.js', ['jquery'], '5.0.0', true); // Carregar após o jQuery
-  wp_enqueue_script('bootstrap-js');
+  // Enfileirando o Swiper
+  wp_enqueue_script('swiper', get_template_directory_uri() . '/swiper-bundle.min.js', array('jquery'), null, true); 
+
+  // Enfileirando o Bootstrap
+  wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bootstrap.min.js', array('jquery'), null, true); 
   
-  // Carregar o Swiper JS
-  wp_register_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', [], '6.0.0', true); // Carregar no rodapé
-  wp_enqueue_script('swiper-js');
-  
-  // Carregar o seu arquivo de scripts personalizados
-  wp_register_script('custom-js', get_template_directory_uri() . '/js/scripts.js', [], '1.0.0', true); // Carregar no rodapé
-  wp_enqueue_script('custom-js');
+  // Enfileirando o seu script customizado (scripts.js)
+  wp_enqueue_script('custom-script', get_template_directory_uri() . '/scripts.js', array('jquery'), null, true); 
 }
-add_action('wp_enqueue_scripts', 'tigercodes_js');
-
-
-
-
-add_theme_support('menus');
-
-function register_my_menu() {
-  register_nav_menu('nav-list',__( 'Nav List' ));
-}
-add_action( 'init', 'register_my_menu' );
-
-
-
-function my_cmb2_fields() {
-  $cmb2 = new_cmb2_box([
-    'id' => 'pagina_inicio',
-    'title' => 'Início',
-    'object_types' => ['page'],
-    'show_on' => [
-      'key' => 'page-template',
-      'value' => 'pagina-inicio.php',
-    ],
-  ]);
-
-  $cmb2->add_field([
-    'name' => 'Logo',
-    'id' => 'logo',
-    'type' => 'text'
-  ]);
-
-  $cmb2->add_field([
-    'name' => 'Saudações',
-    'id' => 'greetings',
-    'type' => 'text'
-  ]);
-}
-add_action('cmb2_admin_init', 'my_cmb2_fields');
+add_action('wp_enqueue_scripts', 'tigercodes_js'); // Adiciona os scripts corretamente
 
 ?>

@@ -21,11 +21,6 @@
 <link rel="icon" href="images/favicon.ico" sizes="192x192">
 <link rel="apple-touch-icon" href="images/favicon.ico">
 <meta name="msapplication-TileImage" content="images/favicon.ico">
-
-<script src="<?= get_stylesheet_directory_uri(); ?>/jquery.min.js" defer></script>
-<script src="<?= get_stylesheet_directory_uri(); ?>/swiper-bundle.min.js" defer></script>
-<script src="<?= get_stylesheet_directory_uri(); ?>/bootstrap.min.js" defer></script>
-<script src="<?= get_stylesheet_directory_uri(); ?>/scripts.js" defer></script>
 <?php wp_head(); ?>
 </head>
 <body>

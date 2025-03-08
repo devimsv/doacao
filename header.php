@@ -37,6 +37,7 @@
                 <img src="<?php echo get_template_directory_uri(); ?>/images/logo.svg" alt="Vakinha Online">
                 </a> 
             </div>
+            
             <div class="menu-header d-none d-lg-flex d-xl-flex align-items-center">
                 <div class="item-menu"><span>Como ajudar</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium sc-252fa7a3-14 ixtrj css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardArrowDownIcon" width="24" height="24"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"></path></svg></div>
                 <div class="item-menu"><span>Descubra</span><svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium sc-252fa7a3-14 ixtrj css-vubbuv" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="KeyboardArrowDownIcon" width="24" height="24"><path d="M7.41 8.59 12 13.17l4.59-4.58L18 10l-6 6-6-6z"></path></svg></div>

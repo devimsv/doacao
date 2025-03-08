@@ -19,7 +19,10 @@ get_header();
                     <div class="galeria">
                         
                         <div class="swiper-wrapper">
-                            <div class="image swiper-slide"><img src="images/jhuly.png" alt="Faça o bem ajudando a salvar vidas!"></div>
+                        <div class="image swiper-slide">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/jhuly.png" alt="Faça o bem ajudando a salvar vidas!">
+                        </div>
+
                             <div class="image swiper-slide"><img src="images/jhuly2.png" alt="Faça o bem ajudando a salvar vidas!"></div>
                         </div>
                         <div class="galeria-pagination"></div>

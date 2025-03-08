@@ -1,19 +1,17 @@
 <?php
 
 function tigercodes_css() {
-  // Adiciona o estilo do tema
-  wp_register_style('tigercodes-style', get_template_directory_uri() . '/style.css', [], '1.0.0');
-  wp_enqueue_style('tigercodes-style');
-
-  // Adiciona o Bootstrap CSS
+  wp_register_style('swiper-style', get_template_directory_uri() . '/css/swiper-bundle.min.css', [], '6.0.0');
+  wp_enqueue_style('swiper-style');
+  
   wp_register_style('bootstrap-style', get_template_directory_uri() . '/css/bootstrap.min.css', [], '5.0.0');
   wp_enqueue_style('bootstrap-style');
 
-  // Adiciona o Swiper CSS
-  wp_register_style('swiper-style', get_template_directory_uri() . '/css/swiper-bundle.min.css', [], '6.0.0');
-  wp_enqueue_style('swiper-style');
+  wp_register_style('custom-style', get_template_directory_uri() . '/style.css', [], '1.0.0');
+  wp_enqueue_style('custom-style');
 }
 add_action('wp_enqueue_scripts', 'tigercodes_css');
+
 
 
 function tigercodes_js() {

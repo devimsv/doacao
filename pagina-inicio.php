@@ -26,12 +26,13 @@ get_header();
                     </div>
                     <div class="sc-jXbUNg jeWFMw">
                         <ul class="sc-46fe23d1-0 haSOVG">
-                            <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="images/avs.svg"></li>
-                            <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="images/perfil.png"></li>
-                            <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="images/imm.svg"></li>
-                            <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="images/lo.webp"></li>
-                            <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="images/kc.webp"></li>
-                            <li class="sc-46fe23d1-1 gNSeDc"><section class="sc-46fe23d1-3 jLFjnt">+</section></li>
+                        <li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="<?php echo get_template_directory_uri(); ?>/images/avs.svg"></li>
+<li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="<?php echo get_template_directory_uri(); ?>/images/perfil.png"></li>
+<li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="<?php echo get_template_directory_uri(); ?>/images/imm.svg"></li>
+<li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="<?php echo get_template_directory_uri(); ?>/images/lo.webp"></li>
+<li class="sc-46fe23d1-1 gNSeDc"><img class="sc-ad44238c-0 bFFsjk sc-46fe23d1-2 lgcmt" src="<?php echo get_template_directory_uri(); ?>/images/kc.webp"></li>
+<li class="sc-46fe23d1-1 gNSeDc"><section class="sc-46fe23d1-3 jLFjnt">+</section></li>
+
                         </ul>
                         <div class="sc-jXbUNg kaMzRM">
                             <span class="sc-fqkvVR ivmFdA"><span id="coracoes">154</span> corações recebidos</span>

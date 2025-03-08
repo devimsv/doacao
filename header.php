@@ -34,7 +34,7 @@
         <div class="content-header d-flex align-items-center justify-content-between">
             <div class="logo">
                 <a href="#">
-                <img src="<?php echo get_template_directory_uri(); ?>/imagess/logo.svg" alt="Vakinha Online">
+                <img src="<?php echo get_template_directory_uri(); ?>/imagesss/logo.svg" alt="Vakinha Online">
                 </a> 
             </div>
 

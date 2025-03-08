@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     avatars.forEach((avatar, index) => {
         if (arrayDados[index]) {
-            avatar.style.backgroundImage = `url('${arrayDados[index].image}')`;
+            avatar.classList.add(`avatar-${index}`);
         }
     });
 });

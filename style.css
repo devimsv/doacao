@@ -819,6 +819,14 @@ margin-top: 15px;
   background-position: center;
 }
 
+/* Adicionar as imagens via CSS */
+.avatar-0 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon0.png"); }
+.avatar-1 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon1.png"); }
+.avatar-2 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon2.png"); }
+.avatar-3 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon3.png"); }
+.avatar-4 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon4.png"); }
+.avatar-5 { background-image: url("<?php echo get_template_directory_uri(); ?>/images/icon5.png"); }
+
 .perfil .avatar img{
 width: 100%;
 height: 100%;
